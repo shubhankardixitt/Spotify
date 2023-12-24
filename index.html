@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <title>Spotify</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar flex">
+            <div class="logo flex">
+                <img src="logo.png" alt="logo">
+                <span>Spotify</span>
+            </div>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h1>Shubhankar's Playlist</h1>
+        <div class="songItem">
+            <img alt="1">
+            <span class="songName">Let me Love You</span>
+            <span class="songListPlay"><span class="timeStamp">05:34 <i id="0"
+                        class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img alt="1">
+            <span class="songName">Let me Love You</span>
+            <span class="songListPlay"><span class="timeStamp">05:34 <i id="1"
+                        class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img alt="1">
+            <span class="songName">Let me Love You</span>
+            <span class="songListPlay"><span class="timeStamp">05:34 <i id="2"
+                        class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img alt="1">
+            <span class="songName">Let me Love You</span>
+            <span class="songListPlay"><span class="timeStamp">05:34 <i id="3"
+                        class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img alt="1">
+            <span class="songName">Let me Love You</span>
+            <span class="songListPlay"><span class="timeStamp">05:34 <i id="4"
+                        class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img alt="1">
+            <span class="songName">Let me Love You</span>
+            <span class="songListPlay"><span class="timeStamp">05:34 <i id="5"
+                        class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img alt="1">
+            <span class="songName">Let me Love You</span>
+            <span class="songListPlay"><span class="timeStamp">05:34 <i id="6"
+                        class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img alt="1">
+            <span class="songName">Let me Love You</span>
+            <span class="songListPlay"><span class="timeStamp">05:34 <i id="7"
+                        class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img alt="1">
+            <span class="songName">Let me Love You</span>
+            <span class="songListPlay"><span class="timeStamp">05:34 <i id="8"
+                        class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+    </section>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="0">
+        <div class="icons">
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" id="gif" alt="playing giphy"><span id="masterSongName">Believer - Imagine Dragons</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/482baa9977.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
